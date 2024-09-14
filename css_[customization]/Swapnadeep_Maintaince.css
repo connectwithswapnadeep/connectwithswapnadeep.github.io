@@ -1,0 +1,40 @@
+#maintaince_background_video {
+    top: 0;
+    left: 0;
+    z-index: -6;
+    overflow: hidden;
+    object-fit: cover;
+    filter: blur(69px);
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+#maintaince_container{
+    position: absolute;
+}
+
+#maintaince_row {
+    --bs-gutter-x: 1rem;
+    padding: 14px 10px 6px 10px;
+}
+
+#maintaince_column {
+    padding: 10px 6px;
+}
+
+#maintaince_column_division {
+    padding: 2.5px 5px;
+}
+
+#coming_soon_illustration {
+    border-radius: 8px;
+    width: -webkit-fill-available;
+    padding: 0px 4.5px;
+}
+
+#coming_soon_clip {
+    padding: 5px 0px;
+    border-radius: 6px;
+    width: -webkit-fill-available;
+}

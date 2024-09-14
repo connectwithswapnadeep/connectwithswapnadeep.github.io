@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    height: -webkit-fill-available;
+}
+
+.main {
+    margin: auto;
+}

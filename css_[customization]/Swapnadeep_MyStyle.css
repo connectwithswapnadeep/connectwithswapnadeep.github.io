@@ -1,3 +1,4 @@
+/* ? Desktop & Tablet and Mobile Devices Look Customization Start */
 body {
     margin: 0;
     padding: 0;
@@ -8,3 +9,18 @@ body {
 .main {
     margin: auto;
 }
+/* ! Desktop & Tablet and Mobile Devices Look Customization End */
+
+
+/* ? Tablet and Mobile Devices Look Customization Start */
+@media only screen and (max-width: 991px) {
+
+}
+/* ! Tablet and Mobile Devices Look Customization End */
+
+
+/* ? Only Mobile Device Look Customization Start */
+@media only screen and (max-width: 767px) {
+
+}
+/* ! Only Mobile Device Look Customization End */

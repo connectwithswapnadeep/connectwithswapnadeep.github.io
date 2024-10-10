@@ -1,3 +1,4 @@
+/* ? Desktop & Tablet and Mobile Devices Look Customization Start */
 #maintaince_background_video {
     top: 0;
     left: 0;
@@ -15,26 +16,60 @@
 }
 
 #maintaince_row {
-    --bs-gutter-x: 1rem;
-    padding: 14px 10px 6px 10px;
+    padding: 12px 12px;
 }
 
-#maintaince_column {
-    padding: 10px 6px;
-}
-
-#maintaince_column_division {
-    padding: 2.5px 5px;
+#maintaince_column_large {
+    padding: 7px;
 }
 
 #coming_soon_illustration {
-    border-radius: 8px;
+    padding: 5px 5px;
+    border-radius: 10px;
     width: -webkit-fill-available;
-    padding: 0px 4.5px;
 }
 
 #coming_soon_clip {
-    padding: 5px 0px;
+    position: relative;
     border-radius: 6px;
     width: -webkit-fill-available;
 }
+/* ! Desktop & Tablet and Mobile Devices Look Customization End */
+
+
+/* ? Tablet and Mobile Devices Look Customization Start */
+@media only screen and (max-width: 991px) {
+
+    #maintaince_container{
+        --bs-gutter-x: 0rem;
+    }
+
+    #maintaince_row {
+        margin: 20px 11px;
+        padding: 0px 0px;
+    }
+
+    #coming_soon_illustration {
+        margin: 0px 9px;
+        padding: 0px 0px;
+        border-radius: 3px;
+    }
+
+    #maintaince_column_large {
+        padding: 0px 9px;
+        margin: 18px 0px 13px 0px;
+    }
+
+    #coming_soon_clip {
+        border-radius: 3px;
+    }
+
+}
+/* ! Tablet and Mobile Devices Look Customization End */
+
+
+/* ? Only Mobile Device Look Customization Start */
+@media only screen and (max-width: 767px) {
+
+}
+/* ! Only Mobile Device Look Customization End */
